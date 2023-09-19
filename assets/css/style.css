@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    align-items: flex-start;
+}
+#block div{
+    background-color: yellow;
+    height: 150px;
+}
+#blocka{
+    width: 50%;
+}
+#blockb{
+    width: 50%;
+}
+#blockc{
+    width: 100%;
+}
+@media screen and (min-width: 576px){
+    #block{
+        display: block;
+    }
+    #block div{
+        width: 100%;
+    }
+}
